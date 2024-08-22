@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: aliceblue;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.boxes {
+    width: 200px;
+    height: 200px; 
+    border-radius: 8px;
+    transition: background-color 0.3s ease; 
+}
+
+#Grey{
+    background-color: rgb(122, 108, 108);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#Blue{
+    background-color: rgb(77, 77, 235);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#Red{
+    background-color: rgb(243, 87, 87);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#Green{
+    background-color: rgb(123, 230, 87);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#Purple{
+    background-color: rgb(230, 117, 230);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#Black{
+    background-color: rgb(34, 23, 23);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#Pink{
+    background-color: rgb(245, 174, 186);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .boxes {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .boxes {
+        width: 60px;
+        height: 60px;
+    }
+}
